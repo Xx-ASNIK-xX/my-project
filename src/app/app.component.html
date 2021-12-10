@@ -1,5 +1,8 @@
 <app-nav></app-nav>
 
+<!--Muestro el listado de cards-->
+<app-card-wrapper></app-card-wrapper>
+
 <app-ejemplo-padre></app-ejemplo-padre>
 
 <!--
@@ -13,3 +16,9 @@
 <span>{{ title | uppercase }} app is running!</span>
 <p> {{edad}}</p>
 <img src="assets/images/nico.JPG"  alt=" lugar posadas">
+
+<ul>
+    <li *ngFor="let numero of numeros">
+        El numero es: {{ numero }}
+    </li>
+</ul>

@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-project';
   edad = 45;
+  numeros = [45, 456, 57, 7879, 9423, 9];
+
 }
