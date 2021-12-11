@@ -30,7 +30,7 @@ export class CardWrapperComponent implements OnInit {
       precio: 654299,
     },
     {
-      imagen: "assets/images/nico2.jpg",
+      imagen: "assets/images/brasil.jpg",
       categoria:"hotel",
       titulo: "Viaja a Brasil",
       ofertaInfalible: false,

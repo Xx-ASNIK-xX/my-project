@@ -8,6 +8,9 @@ import { EjemploPadreComponent } from './components/ejemplo-padre/ejemplo-padre.
 import { EjemploHijoComponent } from './components/ejemplo-hijo/ejemplo-hijo.component';
 import { CardComponent } from './components/card/card.component';
 import { CardWrapperComponent } from './components/card-wrapper/card-wrapper.component';
+import { NosotrosComponent } from './pages/nosotros/nosotros.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { CardWrapperComponent } from './components/card-wrapper/card-wrapper.com
     EjemploPadreComponent,
     EjemploHijoComponent,
     CardComponent,
-    CardWrapperComponent
+    CardWrapperComponent,
+    NosotrosComponent,
+    InicioComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
