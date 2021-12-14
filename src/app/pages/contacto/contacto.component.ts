@@ -24,7 +24,7 @@ export class ContactoComponent implements OnInit {
 
   //onInit: cuando termino de cargar el componnte
   ngOnInit(): void {
-    this.mostrarFact();
+    // this.mostrarFact();
   }
 
 }
